@@ -1,0 +1,81 @@
+{
+  "id": 858911,
+  "login": "alsfirsova@gmail.com",
+  "email": "alsfirsova@gmail.com",
+  "roles": [
+    "ROLE_ADVERTISER",
+    "ROLE_ADVERTISER_EXTENDED",
+    "ROLE_ADVERTISER_SELF_REG",
+    "ROLE_VAT_CHECK_DISABLED",
+    "ROLE_MODERATION_OK",
+    "ROLE_PAYMENT_AVAILABLE",
+    "ROLE_PAYMENT_TYPE_PREPAY",
+    "ROLE_PAYMENT_ALLOWED"
+  ],
+  "token": "33b6f73c05d0dd04ede08b3ffafd0059fe5db767",
+  "tokenType": "Bearer",
+  "meta": {
+    "showQualitySurvey": false,
+    "paymentTypesAmount": {
+      "safeChargeUsdCz": {
+        "min": 100,
+        "max": 0
+      },
+      "safeChargeYandexMoneyCz": {
+        "min": 100,
+        "max": 0
+      },
+      "paymaster24WmzCz": {
+        "min": 100,
+        "max": 0
+      }
+    },
+    "recurringPaymentStatus": 0,
+    "recurringPaymentAmount": "0.00",
+    "recurringPaymentThreshold": "0.00",
+    "customSspCampaignStartingLimit": false,
+    "acceptedApiTerms": 1,
+    "language": "ru",
+    "languageLastUpdate": 1595598970,
+    "campaignListHiddenColumns": [],
+    "isRuCzTermsAccepted": true,
+    "whoisRequired": true,
+    "acceptedOldTerms": true,
+    "acceptedNewTerms": true,
+    "isLivechatAvailable": true,
+    "isSspApiAvailable": false,
+    "isCpcOverflowPopupClosed": false,
+    "isArchivePopupClosed": false,
+    "isCloneWithFrequencyCappingPopupClosed": false
+  },
+  "accountType": 1,
+  "legalInfo": {
+    "firstName": "Aleksandra",
+    "lastName": "Firsova",
+    "residenceCountry": "RU"
+  },
+  "level": "green",
+  "livechatNotes": {
+    "profileLink": "http://adplato.com/adv/advertiser/858911/view",
+    "managerName": "Unknown",
+    "segment": "Unknown",
+    "level": "Green",
+    "verticals": "Games"
+  },
+  "contactInfo": {
+    "website": ""
+  },
+  "targetings": {
+    "smartCpaOnclick": false,
+    "scpaNativeads": false,
+    "limitStartingSspCampaigns": true,
+    "fullStoryOn": false,
+    "campaignTestBudget": false,
+    "campaignTargetingIp": false,
+    "frequencyCappingAvailability": false,
+    "advertiserSmsNotifications": false,
+    "advertiserCampaignOffer": false
+  },
+  "statusAdserving": null,
+  "banMessage": null
+}
