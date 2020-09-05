@@ -6,6 +6,7 @@ import com.alsfirsova.page.propeller.CampaignsPage;
 import com.alsfirsova.page.propeller.PricingModel;
 import com.alsfirsova.page.propeller.ProfilePage;
 import com.codeborne.selenide.Selenide;
+import com.codeborne.selenide.SelenideElement;
 import org.junit.jupiter.api.AfterEach;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.DisplayName;
@@ -16,14 +17,20 @@ import org.junit.jupiter.params.provider.EnumSource;
 
 import java.util.Random;
 
+import static com.codeborne.selenide.Selenide.$;
+
 @ExtendWith({AllureScreenshotExtension.class})
 class PropellerTest {
     private LoginService service = new LoginService();
     private static final String URL = "https://partners.propellerads.com/";
+    private final SelenideElement cookieConsentButton = $("button#cookie-consent");
 
     @BeforeEach
     void setUp() {
         Selenide.open(URL);
+        if(cookieConsentButton.exists()) {
+            cookieConsentButton.click();
+        }
     }
 
     @AfterEach
